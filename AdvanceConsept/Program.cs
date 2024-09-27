@@ -5,7 +5,7 @@ using AdvanceConsept.CutomException;
 
 
 //Generic Examples
-//new GenericExamples();
+new GenericExamples();
 
 
 //Custom Exception
