@@ -15,7 +15,9 @@ namespace AdvanceConsept
             };
 
             // Serialize the Employee object to a file
+#pragma warning disable SYSLIB0011 // Type or member is obsolete
             BinaryFormatter formatter = new BinaryFormatter();
+#pragma warning restore SYSLIB0011 // Type or member is obsolete
             using (FileStream stream = new FileStream("employee.dat", FileMode.Create))
             {
                 formatter.Serialize(stream, emp);

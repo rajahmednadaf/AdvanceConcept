@@ -3,7 +3,7 @@
 using AdvanceConsept;
 using AdvanceConsept.CutomException;
 
-
+/*
 //Generic Examples
 new GenericExamples();
 
@@ -20,3 +20,8 @@ catch (CustomErrorException ex)
     // Output the error details
     Console.WriteLine(ex);
 }
+
+*/
+
+var dataStoreObj = new DataStore.DataStoreMain();
+dataStoreObj.TestGroupByQuery();
